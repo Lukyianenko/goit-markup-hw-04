@@ -290,15 +290,52 @@ img {
 
 .team-list .text{
     margin-top: 10px;
-    margin-bottom: 0;
+    margin-bottom: 16px;
     color: var(--paragraph-text-color);
      line-height: 1.19;
 }
 
+.team-icons {
+    display: flex;
+    justify-content: space-between;
+    }
+
+ 
+.team-icons .item {
+   
+   }
+
+.team-icons .link {
+    display: block;
+    color: var(--clients-color);
+    width: 44px;
+    height: 44px;
+    padding: 12px 12px;
+    border-radius: 50%;
+}
+
+.team-icons .icon {
+    fill: currentColor;
+}
+
+.team-icons .link:hover,
+.team-icons .link:focus {
+    background-color: var(--accent-color);
+    color: var(--heder-bg-color);
+}
+
+.team-icons .icon:hover,
+.team-icons .icon:focus {
+    fill: currentColor;
+}
+
+
 .conte-one {
-       width: 270px;
+    width: 270px;
     padding-bottom: 30px;
     padding-top: 30px;
+    padding-right: 32px;
+    padding-left: 32px;
     background-color: var(--heder-bg-color);
     border-radius: 0px 0px 4px 4px;
     }
