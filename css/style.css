@@ -362,12 +362,14 @@ img {
     fill: currentColor;
 }
 
-.clients-list .link:hover {
+.clients-list .link:hover,
+.clients-list .link:focus {
     border-color: var(--accent-color);
     color: var(--accent-color);
 }
 
-.clients-list .icon:hover {
+.clients-list .icon:hover,
+.clients-list .icon:focus {
     fill: currentColor;
    }
 
@@ -418,6 +420,65 @@ img {
 .page-footer .link:focus {
     color: var(--accent-color);
 }
+
+.page-footer .title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    }
+
+    /* Come */
+
+    .come {
+        width: 206px;
+        height: 80px;
+        margin-left: 70px;
+        padding: 0 0;
+        }
+
+    .come .link {
+    display: block;
+    color: var(--heder-bg-color);
+    width: 44px;
+    height: 44px;
+    padding: 12px 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .come .icon {
+        fill: currentColor;
+    }
+
+    .come .list {
+        justify-content: space-between;
+    }
+    
+    .foot-conte {
+        display: flex;
+        align-items: baseline;
+    }
+    
+    .come .list {
+        display: flex;
+        padding: 0 0;
+    }
+
+    .come .link:hover,
+    .come .link:focus {
+        background-color: var(--accent-color);
+        color: var(--heder-bg-color);
+    }
+
+    .come .icon:hover {
+        fill: currentColor;
+    }
+    
 
 
 
