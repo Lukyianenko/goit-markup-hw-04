@@ -461,8 +461,7 @@ img {
     
     .foot-conte {
         display: flex;
-        align-items: baseline;
-    }
+        }
     
     .come .list {
         display: flex;
@@ -522,6 +521,8 @@ img {
 .button-filtr:focus {
     background-color: var(--accent-color);
     color: #FFFFFF;
+       
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* Works */
@@ -529,6 +530,17 @@ img {
 .section-portfolio{
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.portfolio-works .link {
+    display: block;
+    text-decoration: none;
+   color: inherit;
+}
+
+.portfolio-works .link:hover,
+.portfolio-works .link:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-works {
