@@ -140,7 +140,9 @@ img {
     text-decoration: none;
     align-items: center;
 }
-.auth-nav .link:hover {
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
     color: var(--accent-color);
 }
 
@@ -380,6 +382,7 @@ img {
    padding-top: 60px;
    padding-bottom: 60px;
     background-color: var(--primery-bg-color);
+ 
     }
 
 .logo.footers {
@@ -478,7 +481,9 @@ img {
         fill: currentColor;
     }
     
-
+.foot-conte {
+    align-items: baseline;
+}
 
 
 /* PORTFOLIO
